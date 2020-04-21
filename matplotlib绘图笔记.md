@@ -2,6 +2,28 @@
 
 课程：[Matplotlib教程系列-用Python绘制图形](https://www.bilibili.com/video/BV1dQ4y1K7gR)
 
+
+
+[Matplotlib - 用Python绘制2D和3D图像](https://zhuanlan.zhihu.com/p/29740724)
+
+[Matplotlib学习笔记——画三维图](https://blog.csdn.net/jasonzhoujx/article/details/81780774)
+
+
+
+ [numpy np.newaxis 的使用](https://www.cnblogs.com/onemorepoint/p/8110523.html)
+
+
+
+一维输入：`plot3D`、`plot_trisurface`（使用Delaunay triangulation划分曲面三角形后绘制）
+
+二位输入：`plot_surface`、`plot_wireframe`
+
+二维的数据主要通过meshgrid以及mgrid获取 
+
+[Python的 numpy中 meshgrid 和 mgrid 的区别和使用](https://www.cnblogs.com/shenxiaolin/p/8854197.html)
+
+
+
 ## 绘制基本图表
 
 [matplotlib绘图入门详解](https://blog.ouyangsihai.cn/%2Fmatplotlib-hui-tu-ru-men-xiang-jie.html#toc-heading-8)
@@ -37,6 +59,14 @@ ax=fig.add_subplot(1,1,1)
 ![image-20200419220437011](C:\Users\15487\AppData\Roaming\Typora\typora-user-images\image-20200419220437011.png)
 
 ## 绘图技巧
+
+### 在一幅图中插入子图
+
+```
+inset_ax = fig.add_axes([0.2, 0.55, 0.35, 0.35])
+```
+
+
 
 ### 更改坐标轴标签的颜色
 
